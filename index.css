@@ -1,0 +1,9 @@
+@import "components/bookmarks.css";
+@import "components/create.css";
+@import "components/home";
+@import "components/profile";
+@import "components/skills";
+
+@import "./global.css";
+@import "./variables.css";
+@import "./styles.css";
