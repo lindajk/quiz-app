@@ -1,0 +1,20 @@
+.create__title {
+  margin: 5px;
+}
+
+.create__submitbutton {
+  display: flex;
+  justify-content: center;
+}
+
+.create__submit {
+  background-color: var(--first-color);
+  text-align: center;
+  text-decoration: none;
+  border: solid var(--first-color);
+  border-radius: 5px;
+  width: 5cm;
+  color: var(--fourth-color);
+  font-size: 12px;
+  margin: 5px;
+}

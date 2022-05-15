@@ -1,0 +1,53 @@
+.profile__intro {
+  margin: 5px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.profile__image {
+  width: 100px;
+  height: 100px;
+  border-radius: 180px;
+}
+
+.profile__name .profile__skills {
+  font-size: 18px;
+}
+
+.profile__aboutme {
+  margin: 20px 5px;
+
+  font-size: 12px;
+}
+
+.profile__skillslist {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+
+.profile__skill {
+  font-size: 8px;
+  background-color: var(--fifth-color);
+  text-align: center;
+  margin: 5px;
+  border-radius: 5px;
+}
+
+.profile__logoutbutton {
+  display: flex;
+  justify-content: center;
+}
+
+.profile__logout {
+  background-color: var(--first-color);
+  text-align: center;
+  text-decoration: none;
+  border: solid var(--first-color);
+  border-radius: 5px;
+  width: 5cm;
+  color: var(--fourth-color);
+  font-size: 12px;
+  margin: 5px;
+}

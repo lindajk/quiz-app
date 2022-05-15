@@ -1,0 +1,21 @@
+.home__navbar {
+  display: flex;
+  justify-content: space-around;
+  background-color: var(--first-color);
+  position: fixed;
+  bottom: 0;
+  height: 50px;
+}
+
+.home__navi {
+  width: 20px;
+  length: 20px;
+  fill: var(--second-color);
+  position: sticky;
+}
+
+.home__navibook {
+  width: 15px;
+  length: 15px;
+  fill: var(--second-color);
+}

@@ -1,9 +1,10 @@
-@import "components/bookmarks.css";
-@import "components/create.css";
-@import "components/home";
-@import "components/profile";
-@import "components/skills";
-
 @import "./global.css";
 @import "./variables.css";
-@import "./styles.css";
+
+@import "components/bookmarks.css";
+@import "components/questioncard.css";
+@import "components/home_header.css";
+@import "components/home_navi.css";
+@import "components/home_main.css";
+@import "components/create_main.css";
+@import "components/profile_main.css";
