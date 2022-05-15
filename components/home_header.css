@@ -1,0 +1,9 @@
+.home__header {
+  background-color: var(--first-color);
+  height: 40px;
+}
+
+h1 {
+  color: var(--fourth-color);
+  text-align: center;
+}
