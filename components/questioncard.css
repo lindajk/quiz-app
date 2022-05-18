@@ -16,6 +16,14 @@
   top: -8px;
 }
 
+.home__form {
+  background-color: var(--fifth-color);
+}
+
+.home__textarea {
+  background-color: var(--sixth-color);
+}
+
 .home__answer {
   display: flex;
   flex-direction: column;
@@ -37,12 +45,12 @@
 .home__answeroptionlist {
   display: flex;
   flex-direction: row;
-  list-style: none;
+  gap: 8px;
 }
 
 .home__answeroption {
-  font-size: 8px;
-  background-color: var(--fifth-color);
+  font-size: 12px;
+  background-color: var(--sixth-color);
   text-align: center;
   margin: 5px;
   border-radius: 5px;
