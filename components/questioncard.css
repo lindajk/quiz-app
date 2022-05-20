@@ -1,13 +1,22 @@
-.home__questioncard {
+.qc {
+  background-color: var(--fifth-color);
   position: relative;
-  margin-bottom: 20px;
+  margin: 10px;
+  height: 6cm;
 }
 
-.home__main {
-  padding: 12px;
+.qc__title {
+  margin: 10px;
+  background-color: var(fifth-color);
 }
 
-.home__bookmark {
+.qc__bookmark-button {
+  border: none;
+  outline: none;
+  background: none;
+}
+
+.qc__bookmark {
   width: 24px;
   height: 24px;
   fill: var(--first-color);
@@ -16,21 +25,22 @@
   top: -8px;
 }
 
-.home__form {
-  background-color: var(--fifth-color);
+qc__bookmark-filled {
+  fill: var(--fourth-color);
 }
 
-.home__textarea {
-  background-color: var(--sixth-color);
+.qc__question {
+  margin: 10px;
+  font-size: 0.8rem;
 }
 
-.home__answer {
+.qc__answer {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.home__showanswer {
+.qc__showanswer-button {
   background-color: var(--first-color);
   text-align: center;
   text-decoration: none;
@@ -40,18 +50,4 @@
   color: var(--fourth-color);
   font-size: 12px;
   margin: 5px;
-}
-
-.home__answeroptionlist {
-  display: flex;
-  flex-direction: row;
-  gap: 8px;
-}
-
-.home__answeroption {
-  font-size: 12px;
-  background-color: var(--sixth-color);
-  text-align: center;
-  margin: 5px;
-  border-radius: 5px;
 }
