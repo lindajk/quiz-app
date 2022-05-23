@@ -1,8 +1,5 @@
-/*eslint-env es6*/
-const showAnswer = document.querySelector('[data-js="showanswer"]');
-const rightAnswer = document.querySelector('[data-js="answeroption"]');
+import { answer } from './js/showanswer.js';
+import { bookmark } from './js/bookmark.js';
 
-showAnswer.addEventListener('click', () => {
-  rightAnswer.style.backgroundColor = 'green';
-  rightAnswer.style.Color = 'white';
-});
+answer();
+bookmark();

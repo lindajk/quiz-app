@@ -1,0 +1,9 @@
+.card__bookmark-filled {
+  fill: var(--fourth-color);
+}
+
+.card__answer-active {
+  display: block;
+  margin: 10px;
+  font-size: 0.8rem;
+}

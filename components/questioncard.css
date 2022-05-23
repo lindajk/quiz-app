@@ -1,22 +1,22 @@
-.qc {
+.card {
   background-color: var(--sixth-color);
   position: relative;
   margin: 10px;
   padding: 5px;
 }
 
-.qc__title {
+.card__title {
   margin: 10px;
   background-color: var(fifth-color);
 }
 
-.qc__bookmark-button {
+.card__bookmark-button {
   border: none;
   outline: none;
   background: none;
 }
 
-.qc__bookmark {
+.card__bookmark {
   width: 24px;
   height: 24px;
   fill: var(--fifth-color);
@@ -25,31 +25,23 @@
   top: -8px;
 }
 
-.qc__bookmark-filled {
-  fill: var(--fourth-color);
-}
-
-.qc__question,
-.qc__anwer {
+.card__question,
+.card__anwer {
   margin: 10px;
   font-size: 0.8rem;
 }
 
-.qc__answer {
+.card__answer {
   display: none;
 }
 
-.qc__answer-active {
-  display: block;
-}
-
-.qc__showanswer-block {
+.card__showanswer-block {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.qc__showanswer-button {
+.card__showanswer-button {
   background-color: var(--first-color);
   text-align: center;
   text-decoration: none;
@@ -62,14 +54,14 @@
   padding: 0.5em;
 }
 
-.qc__taglist {
+.card__taglist {
   display: flex;
   flex-direction: row;
   gap: 8px;
   margin: 10px;
 }
 
-.qc__tag {
+.card__tag {
   font-size: 12px;
   background-color: var(--fifth-color);
   text-align: center;
